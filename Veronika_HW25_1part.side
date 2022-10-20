@@ -1,0 +1,355 @@
+{
+  "id": "0252dd20-fb32-4a6d-a9f6-94b1d8b9e2d5",
+  "version": "2.0",
+  "name": "Veronika_HW25_1part",
+  "url": "https://prom.ua/ua/",
+  "tests": [{
+    "id": "69d6ef62-9ab8-48ca-adcd-3b6032ece7ec",
+    "name": "Test1_Rozetka",
+    "commands": [{
+      "id": "e15e23d5-08fc-4373-9c7d-2efa6405c60c",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c90c55fa-2cd9-4009-84a1-020b2e66fe1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=fat-menu",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b51e8987-acf2-4a90-908d-ec5e9be9a7f9",
+      "comment": "",
+      "command": "click",
+      "target": "link=Asus",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce6e5999-1574-4c92-bac1-ebb0cb774c6e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Готовий до відправлення'])[1]/following::ul[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcf1d762-72b6-41bb-b35f-ffe93a3b11ef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='ТОП ПРОДАЖІВ'])[1]/following::span[5]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e31a05b1-5de4-4091-9ca7-8af6579ba619",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/ul/li/rz-product-buy-btn/app-buy-button/button/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7fb71a1-9a27-4789-8830-a8e27aa84f39",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='₴'])[60]/following::button[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa379d1e-60bb-4a16-92c0-dc1bac8e39c3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Повернись живим'])[1]/following::span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d23fb51-ab1f-43ac-96d3-4c0ca1b82cc1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Кошик'])[1]/following::span[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1f7bcdc-8bae-4e67-b73a-c7786f974a93",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Видалити все'])[1]/following::button[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bfb8f52-6623-4b3d-936d-7b59c87721cd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Кошик'])[1]/following::button[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4569975-18cf-4cff-86dd-ad48cfbb0d28",
+    "name": "Test1",
+    "commands": [{
+      "id": "651fdd84-4579-4f23-aaef-9dee0071148e",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "394726e7-7d8c-4ab6-acbc-88586c117330",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1039x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c17ecea-5e6c-4d45-8e4a-799118bf3699",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.top-information__picture",
+      "targets": [
+        ["css=.top-information__picture", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content2.rozetka.com.ua/banner_header/image_ua/original/293886039.jpg')]", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d93035c-7b4a-4ae7-aa3a-499220b58f2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.top-information__picture",
+      "targets": [
+        ["css=.top-information__picture", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content2.rozetka.com.ua/banner_header/image_ua/original/293886039.jpg')]", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21353467-bf46-49ce-b4f5-cab308d1b38e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.top-information__picture",
+      "targets": [
+        ["css=.top-information__picture", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content2.rozetka.com.ua/banner_header/image_ua/original/293886039.jpg')]", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a99c5a4-8e55-4640-ad5d-4784fd9698ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=fat-menu",
+      "targets": [
+        ["id=fat-menu", "id"],
+        ["css=#fat-menu", "css:finder"],
+        ["xpath=//button[@id='fat-menu']", "xpath:attributes"],
+        ["xpath=//rz-header-fat-menu/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29588b05-2540-4455-a0a6-7d6e5787b24e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Asus",
+      "targets": [
+        ["linkText=Asus", "linkText"],
+        ["css=.menu-categories__item:nth-child(1) .menu__hidden-column:nth-child(1) > .menu__hidden-list:nth-child(1) .ng-star-inserted:nth-child(1) > .menu__link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Asus')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/notebooks/c80004/producer=asus/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Asus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f278be-46c4-48e2-bdee-58682774358b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=RU",
+      "targets": [
+        ["linkText=RU", "linkText"],
+        ["css=.lang__item:nth-child(1) > .lang__link", "css:finder"],
+        ["xpath=//a[contains(text(),'RU')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/')])[1235]", "xpath:href"],
+        ["xpath=//rz-lang/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RU')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddc23a68-bd54-40d5-9011-56c100d83463",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(2) .goods-tile__inner",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(2) .goods-tile__inner", "css:finder"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fe1c7aaa-bf12-4472-afb0-2aeb063a292a",
+    "name": "Test2_Etsy",
+    "commands": [{
+      "id": "dbe0d650-19f5-4a51-aa2c-fb88bf2d1696",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/?ref=lgo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "371237c1-ae95-404f-9898-10f27c5e03b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=catnav-primary-link-10855",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93d89df4-eb98-4bde-bc4f-60e31e117d96",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/c/jewelry-and-accessories?ref=catnav-10855",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cea54d2-2a85-40db-8fd7-37c1288cf586",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//main[@id='content']/div/div/div/div[2]/div[2]/div/div/div/a/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9b045af-807f-49f2-b365-bc5b6ee8eb60",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/c/jewelry/earrings?ref=catcard-10896-108346740&explicit=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f2606f2-c5c9-4ee1-9af2-bc5b32f502c3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Double Circle Ear Jacket Earrings']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c970ceb8-7e32-4401-8dcb-44e88dbac00e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/listing/583822495/double-circle-ear-jacket-earrings?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=sc_gallery-1-1&pro=1&sts=1&plkey=24a6f55197b6ef3934998b26ddb92d4c6784c078%3A583822495",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa793e6f-db58-46a5-9eb4-8e5650e60e86",
+      "comment": "",
+      "command": "click",
+      "target": "id=variation-selector-0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "643a4c3e-fa86-4159-aa19-0b0556580cb7",
+      "comment": "",
+      "command": "select",
+      "target": "id=variation-selector-0",
+      "targets": [],
+      "value": "label=Gold\\n"
+    }, {
+      "id": "c8fd0e35-1dee-4b8c-b9ab-e173754a08f9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='listing-page-cart']/div[3]/div/div[3]/div/form/div/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c75008d3-53fe-4b54-982d-6d48da3b7920",
+      "comment": "",
+      "command": "click",
+      "target": "link=View cart & check out",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea2316e4-1fec-4de7-ad38-20a9f2ab954e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/cart/?show_cart=7115599189",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f072126-2c0f-45a8-908b-145675e0d12f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='multi-shop-cart-list']/div/div/div/ul/li/ul/li/div/div[2]/div/div/div[4]/ul/li[2]/a/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "788e58fb-a28b-4ab7-b2b7-7dad643b6010",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Etsy'])[1]/following::*[name()='svg'][1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a7c9b3b-3b0d-47d1-9edf-b53474f2bd9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/?ref=lgo",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5c68c49e-0e51-4ac3-a898-bc4f815de8e4",
+    "name": "Test3_Prom",
+    "commands": [{
+      "id": "97ad941f-75e6-4172-a4fa-0339b601a645",
+      "comment": "",
+      "command": "open",
+      "target": "https://prom.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53c90a53-b1b4-4c22-870c-9290e266402b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Знайти'])[1]/preceding::*[name()='svg'][2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c05e996c-76ae-4b4a-a987-c4cda577ae6f",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_term",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f02dcb31-cbea-4d3b-a75d-359e6b5cdc13",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_term",
+      "targets": [],
+      "value": "генератор"
+    }, {
+      "id": "d7f97cdc-495a-4e6a-86e8-e45298a851d1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "046870c5-32b2-4ba9-93c2-4d64318d9fe5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='page-block']/div/div[4]/div/div[4]/div[3]/div/div[2]/div/div/div/div/div/a",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "40578d4b-bc5a-483a-a76f-ff46a921b816",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rozetka.com.ua/", "https://www.etsy.com/", "https://comfy.ua/ua/", "https://prom.ua/ua/"],
+  "plugins": []
+}
